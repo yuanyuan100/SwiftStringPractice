@@ -8,6 +8,7 @@
 
 import Foundation
 
+
 let s = "abcdefg"
 
 var muS = "123456"
@@ -94,11 +95,31 @@ if herName == nil {
 
 }
 
-do {
-
-} catch {
-
+// 区间运算
+for index in (1...9) {
+    print("闭区间 = \(index)")
 }
+
+for index in (1..<9) {
+    print("半开闭区间 = \(index)")
+}
+
+// 没有 全开区间 左半开闭区间
+
+//=========================//
+print("========================")
+fileprivate let car = "308s"
+let ps: PRAStringClass = PRAStringClass()
+ps.traversalString(car)
+
+var ps_: PRAStringClass? = PRAStringClass()
+ps_ = nil;
+
+
+let benZ = Suv(logo: "Bez")
+print(benZ.passengerCount)
+
+
 
 
 
